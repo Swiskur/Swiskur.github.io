@@ -1,0 +1,99 @@
+body{
+    background-color: #cbc9c9;
+}
+h1 {
+    text-align: center;
+}
+header {
+    background-color: burlywood;
+    position: dynamic;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 55px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 50px;
+}
+
+a:link {
+    color: rgb(144, 172, 247);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+a:visited {
+    color: rgb(144, 172, 247);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+a:hover {
+    color: rgb(11, 194, 255);
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+a:active {
+    color: rgb(22, 15, 101);
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+#homeheader{
+    color: brown;
+}
+#homepara{
+    color: darkgreen;
+}
+#aboutheader{
+    color:aqua;
+}
+#aboutintro{
+    color:blueviolet;
+
+}
+#aboutpara{
+    color:goldenrod;
+}
+.contactnamelabel{
+    color: rgb(89, 89, 24);
+}
+.contactnameinput{
+    background-color:rgb(68, 95, 119);
+}
+.emaillabel{
+    color: sandybrown;
+}
+.emailinput{
+    background-color:aquamarine;
+}
+.subjectlabel{
+    color:rgb(237, 134, 8);
+}
+.subjectinput{
+    background-color: antiquewhite;
+}
+.messagelabel{
+    color: rgb(6, 63, 85);
+
+}
+.messageinput{
+    background-color: slategrey ;
+
+}
