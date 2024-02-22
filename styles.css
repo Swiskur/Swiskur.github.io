@@ -24,6 +24,8 @@
 }
 .image-class{
     border: 20px solid rgb(233, 210, 76);
+    max-width:100%;
+    height:auto;
 }
 .form-class{
     color:rgb(122, 58, 1)
